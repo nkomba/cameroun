@@ -258,8 +258,8 @@ window.CH_CHAPTERS = [
       { en: "Add the Bimbia treaty corpus with commentary.", fr: "Ajouter le corpus des traités de Bimbia, avec commentaire." }
     ],
     contributor: {
-      name: "Dr. R. Ekwe Dibonge (placeholder)",
-      affil: { en: "History, University of Douala", fr: "Histoire, Université de Douala" }
+      name: "E. Nkomba, MBA",
+      affil: { en: "Library of Congress", fr: "Bibliothèque du Congrès" }
     }
   },
 

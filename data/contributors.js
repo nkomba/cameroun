@@ -8,6 +8,19 @@
 
 window.CH_CONTRIBUTORS = [
   {
+    name: "E. Nkomba, MBA",
+    initials: "EN",
+    placeholder: false,
+    role: { en: "Technologist · Coordinating author, ch. 4", fr: "Technologiste · Auteur coordonnateur, chap. 4" },
+    affil: { en: "Library of Congress", fr: "Bibliothèque du Congrès" },
+    regions: { en: "Littoral, South; Sanaga valley surveys", fr: "Littoral, Sud ; prospections de la vallée de la Sanaga" },
+    langs: ["FR", "EN", "Bakoko, Douala"],
+    bio: {
+      en: "Works on the Atlantic encounters and commercial transformations; leads the project's general coordination.",
+      fr: "Travaille sur les rencontres atlantiques et mutations commerciales ; conduit la coordination generale du projet."
+    }
+  },
+   {
     name: "Dr. E. Nkolo Ayissi",
     initials: "EN",
     placeholder: true,

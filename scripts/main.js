@@ -33,14 +33,27 @@
   /* ---------- Helpers ---------- */
   function t(obj) { return obj && (obj[lang] != null ? obj[lang] : obj.en); }
 
-  // Resolve a dot path like "home.heroTitle" inside CH_CONTENT
+  // Resolve a dot path like "home.heroTitle" inside CH_CONTENT,
+  // falling back to window.I18N if the key isn't found in CH_CONTENT.
   function tPath(path) {
     var node = C;
     var parts = path.split(".");
     for (var i = 0; i < parts.length; i++) {
       node = node ? node[parts[i]] : null;
     }
-    return node ? t(node) : "";
+    if (node) return t(node);
+
+    // FIX: Fallback to window.I18N for keys that only exist in the
+    // newer locale system (e.g. privacy.*).
+    var dict = window.I18N && (window.I18N[lang] || window.I18N.en);
+    if (dict) {
+      var n = dict;
+      for (var k = 0; k < parts.length; k++) {
+        n = n ? n[parts[k]] : null;
+      }
+      if (typeof n === "string") return n;
+    }
+    return "";
   }
 
   function esc(s) {
@@ -284,7 +297,8 @@
   }
 
   /* ---------- Routing ---------- */
-  var VIEWS = ["home", "about", "timeline", "chapters", "contributors", "method", "resources", "updates"];
+  // FIX: Added "privacy" to the VIEWS array so the router recognises #privacy
+  var VIEWS = ["home", "about", "timeline", "chapters", "contributors", "method", "resources", "updates", "privacy"];
 
   function route() {
     var hash = location.hash.replace(/^#\/?/, "") || "home";

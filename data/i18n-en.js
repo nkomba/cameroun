@@ -16,6 +16,7 @@ window.I18N.en = {
     method: "Editorial Method",
     resources: "Resources",
     updates: "Updates",
+    privacy: "Privacy",
     menu: "Menu"
   },
 
@@ -109,5 +110,54 @@ window.I18N.en = {
     contact: "Write to us at contributions@camerounhistoire.org",
     collabNote: "Contributions of memory, translation, correction, or scholarship are all welcome.",
     license: "All content licensed under CC BY-SA 4.0 — share, adapt, and build upon, with attribution."
+  },
+
+  privacy: {
+    kicker: "Your privacy",
+    title: "Privacy Policy",
+    lead: "Cameroun Histoire is a non-commercial, open-history project. We collect as little information as possible and never sell or trade what we hold.",
+    lastUpdated: "Last updated:",
+
+    h2Intro: "Introduction",
+    pIntro: "This Privacy Policy explains how camerounhistoire.org collects, uses, and protects information when you visit our website or contribute to the project. We are committed to transparency and to respecting your privacy in accordance with applicable data-protection laws, including the EU General Data Protection Regulation (GDPR) and the Cameroon Data Protection Act (Law No. 2010/012).",
+
+    h2Collect: "Information We Collect",
+    pCollect1: "Because camerounhistoire.org is primarily a reading platform, we do not require you to register or log in to browse the content. We collect only the minimum information necessary for the operation and improvement of the site.",
+    pCollect2: "Specifically, we may process the following categories of data:",
+    liCollect1: "Contributor information — names, biographical notes, photographs, and editorial submissions provided voluntarily by individuals who choose to participate in the project.",
+    liCollect2: "Contact correspondence — the contents of emails or messages you send us when you reach out about contributing, correcting, or asking questions about the material on this site.",
+    liCollect3: "Technical logs — your IP address, browser type, and pages visited may be recorded by our hosting infrastructure and CDN for security monitoring and site stability. These logs are not used to build personal profiles.",
+
+    h2ThirdParty: "Third-Party Services",
+    pThirdParty1: "Our website loads fonts from Google Fonts (fonts.googleapis.com). When your browser fetches these fonts, Google may receive your IP address and certain browser headers. Google's use of this information is governed by its own privacy policy. Beyond font delivery, we do not embed advertising trackers, social-media pixels, or third-party analytics on this site.",
+    liThirdParty1: "Cloudflare — provides our content delivery network (CDN) and security services. Cloudflare may process limited traffic data to protect the site from abuse. See cloudflare.com/privacypolicy for details.",
+    liThirdParty2: "Google Fonts — delivers the typographic fonts used on this site. See policies.google.com/privacy for Google's data practices.",
+
+    h2Cookies: "Cookies and Tracking",
+    pCookies: "Cameroun Histoire does not set tracking cookies, advertising cookies, or third-party analytics cookies on your device. If we introduce essential cookies in the future (for example, to remember your language preference), we will update this policy and ensure that such cookies are strictly necessary for site functionality.",
+
+    h2Use: "How We Use Information",
+    pUse1: "Information we collect is used solely for:",
+    liUse1: "Operating, displaying, and improving the content of the website.",
+    liUse2: "Reviewing, editing, and publishing contributions submitted by volunteer collaborators.",
+    liUse3: "Responding to messages and inquiries you send to the editorial team.",
+
+    h2Share: "Sharing of Information",
+    pShare: "We do not sell, rent, or trade personal information to any third party. Contributor names, biographies, and photographs are published on the site only with the explicit consent of the individuals concerned. We may disclose information if required to do so by law or in good-faith response to a valid legal request.",
+
+    h2Rights: "Your Rights",
+    pRights1: "Depending on your jurisdiction, you may have the right to:",
+    liRights1: "Request access to the personal data we hold about you.",
+    liRights2: "Request correction or deletion of your personal data.",
+    liRights3: "Withdraw consent for the publication of your contributor information at any time by contacting the editorial team.",
+
+    h2Children: "Children's Privacy",
+    pChildren: "Our website is not directed at children under 13, and we do not knowingly collect personal information from children. If you believe a child has provided us with information, please contact us so we can promptly delete it.",
+
+    h2Changes: "Changes to This Policy",
+    pChanges: "We may update this Privacy Policy from time to time. When we do, we will revise the 'Last updated' date at the top of this page. We encourage you to review this page periodically to stay informed about how we protect your privacy.",
+
+    h2Contact: "Contact Us",
+    pContact: "If you have any questions about this Privacy Policy or wish to exercise your data-protection rights, please contact the founding editor, Patrice \u201cCoco\u201d Nkomba, through the contact information provided in the footer of this website."
   }
 };
